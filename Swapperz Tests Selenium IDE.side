@@ -1,0 +1,177 @@
+{
+  "id": "fd0392e4-0595-4b48-9abd-3f5dd35aee6f",
+  "version": "2.0",
+  "name": "Swapperz Tests",
+  "url": "http://localhost:8084/SwapperzWebApplication/pickMensCategory.jsp",
+  "tests": [{
+    "id": "13d4005c-e62e-42b8-9f47-5ff363eab554",
+    "name": "Untitled",
+    "commands": [{
+      "id": "77acf88c-0923-4510-a844-027b8fde508a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eab6defa-faac-466c-b90e-9a9254148e4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d83eb33-9821-4a02-b109-56a233a63c5c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "958ce6cf-f72e-4f58-8526-5e8bddef1a44",
+    "name": "View Mens Hoodies - Test 1 ",
+    "commands": [{
+      "id": "1ce1bc27-8096-4963-bad1-4884ffac5935",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2497ca2-61d2-4fc0-9388-5eedb259972f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.display-3",
+      "targets": [
+        ["css=.display-3", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'mens trainers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8fdfbce-1f2e-43cf-b2af-2d55f79624f8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h1[contains(.,'mens trainers')]",
+      "targets": [
+        ["css=.display-3", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'mens trainers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dc17f66-b6a4-4385-a39b-922117d92ff7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6",
+      "targets": [
+        ["css=.col-md-6", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f056d44e-e51f-4b20-b922-0de0c5c3dc1f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'VIEW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39e20550-f5ee-4afd-bb0b-539a2c17e597",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(2) .btn",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6594598-3596-4c9c-ad20-9cb560fcd16c",
+      "comment": "",
+      "command": "open",
+      "target": "/SwapperzWebApplication/pickMensCategory.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d39b42c-8135-4132-b104-86dff3092ac2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5beb4aec-7194-4b5e-a421-b32cca352793",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MEN",
+      "targets": [
+        ["linkText=MEN", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'MEN')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'pickMensCategory.jsp')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MEN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48bf0e54-e266-4d33-8fe3-0be60f7fe4f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(2) .btn",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aac7b60-0691-4868-b453-359ba53c077a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(1) .btn",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'VIEW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74871390-3612-431e-b40b-cd7d4105cfdf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0324f73-50ea-4d3a-a5e8-4d2280df0f27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.display-3",
+      "targets": [
+        ["css=.display-3", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'mens hoodies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "243d59a5-c53a-4ba7-8c2c-2a186d4c6854",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["13d4005c-e62e-42b8-9f47-5ff363eab554"]
+  }],
+  "urls": ["http://localhost:8084/"],
+  "plugins": []
+}

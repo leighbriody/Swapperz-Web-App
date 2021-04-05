@@ -1,0 +1,257 @@
+.retroShoeImg{
+    transform: rotate(-20deg);
+    padding-right: 5%;
+}
+
+
+/*
+    Search page banner
+*/
+.searchBanner{
+    max-width: 205%;
+    display: block;
+    margin: auto;
+}
+
+.searchBannerText{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 15%;
+    font-size: 2.8rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.searchBannerSubText{
+    font-size: 1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    color: white;
+    top: 44%;
+    left: 20%;
+    font-size: medium;
+}
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    padding-right: 10%;
+    height: calc(3rem + 2px) !important;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:5px;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+/*********************************************************/
+.jumbotron{
+    color: Black;
+    margin-top: 5%;
+    font-family: Arial;
+    background-color: white;
+
+
+
+}
+
+main {
+    padding-top: 5%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+
+
+
+/*//SIGN IN FORM CSS*/
+
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.active {
+    border: 1px solid black;
+}
+
+.blackHoodie {
+    float: right;
+    max-width: 30%;
+    height: auto;
+}
+
+.jumbo-grid {
+    border:1px solid black;
+    float: left;
+}
+
+
+
+.jumbotron-grid {
+    margin-top: 5%;
+
+}
+
+#logo {
+    max-width: 30%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.shopName {
+    color:red;
+}
+
+.hoodieCategoryImage{
+    max-width:100%;
+    height: auto;
+}
+
+.runnersCategoryImage {
+
+
+}
+
+.accessories {
+    object-fit: fill;
+}
+
+.jeansCategoryImage {
+    max-width: 100%;
+    max-height: 95%;
+}
+.category-option {
+    margin: auto;
+}
+
+
+
+.profile {
+    margin-top: 3%;
+}
+
+/* */
+
+
+.gallery-wrap .img-big-wrap img {
+    height: 450px;
+    width: auto;
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    margin: 7px 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.link-unstyled {
+  &,
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:hover {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+  }
+}
